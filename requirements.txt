@@ -1,0 +1,5 @@
+requests[socks]>=2.31
+qrcode>=7.4
+opencc-python-reimplemented>=0.1.7
+# 仅 macOS 从 Chrome 自动读取 Apple 凭据时需要
+cryptography>=41; sys_platform == "darwin"
